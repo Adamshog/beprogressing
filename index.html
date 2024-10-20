@@ -29,6 +29,27 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* Define the pulsing keyframes */
+        @keyframes pulsing {
+            0% {
+            box-shadow: 0 0 0 0 rgba(0, 255, 170, 0.7);
+        }
+        100% {
+            box-shadow: 0 0 30px 30px rgba(0, 255, 170, 0);
+        }
+        }
+
+        /* Style the WhatsApp icon */
+        .whatsapp-icon {
+            font-size: 48px;
+            color: rgb(0, 255, 170);
+            margin-left: 100px;
+            animation: pulsing 2s infinite;
+            border-radius: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -69,6 +90,10 @@
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
                 <h3 class="m-0"><img src="C:\Users\adams\OneDrive\beprogress2\beprogressing\img/logo.png  " alt=" "></i> Progress Consultant</h3>
+            </a>
+
+            <a target="_blank" href="https://wa.me/256774203252?text=you%20are%20chating%20with%20NadoGraphUganda">
+                <i class="fab fa-whatsapp fw-normal whatsapp-icon"></i>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
