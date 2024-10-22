@@ -84,6 +84,9 @@ h6,
     font-weight: 600;
     transition: .5s;
 }
+.mt-3 {
+    text-align: left;
+}
 
 .btn-primary,
 .btn-secondary {
