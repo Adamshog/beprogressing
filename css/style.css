@@ -365,7 +365,7 @@ h6,
     height: 15px;
     background: #DDDDDD;
     border-radius: 2px;
-    transition: .5s;
+    transition: .4s;
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -379,7 +379,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item .testimonial-item {
-    transition: .5s;
+    transition: .4s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -390,7 +390,7 @@ h6,
 
 /*** Team ***/
 .team-item {
-    transition: .5s;
+    transition: .4s;
 }
 
 .team-social {
@@ -402,7 +402,7 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .5s;
+    transition: .4s;
 }
 
 .team-social a.btn {
@@ -446,7 +446,7 @@ h6,
 
 .team-item .team-img img,
 .blog-item .blog-img img  {
-    transition: .5s;
+    transition: .4s;
 }
 
 .team-item:hover .team-img img,
@@ -478,7 +478,7 @@ h6,
 }
 
 .link-animated a {
-    transition: .5s;
+    transition: .4s;
 }
 
 .link-animated a:hover {
